@@ -1,2 +1,0 @@
-# aimdexter.github.io
- KHOTWATI
