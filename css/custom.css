@@ -391,3 +391,70 @@ Colors:
 		margin-left: 1.5rem;
 	}
 	/* end of footer */
+	/***************************/
+	/*     06. Description     */
+	/***************************/
+	.cards-1-1 {
+		padding-top: 1rem;
+		padding-bottom: 0rem;
+		text-align: center;
+		background-color: #00487E;
+	}
+
+	.cards-1-1 .h2-heading {
+		margin-bottom: 3.5rem;
+	}
+
+	.cards-1-1 .card1 {
+		max-width: 21rem;
+		margin-right: auto;
+		margin-bottom: 0rem;
+		margin-left: auto;
+		padding: 0;
+		border: none;
+	}
+
+	.cards-1-1 .card-image1 {
+		max-width: 16rem;
+		margin-right: auto;
+		margin-bottom: 2rem;
+		margin-left: auto;
+	}
+
+	.cards-1-1 .card-title {
+		margin-bottom: 0.5rem;
+		color: white;
+	}
+
+	.cards-1-1 .card-body {
+		padding: 0.5;
+	}
+	/* Description */
+	.cards-1-1 .card1 {
+		display: inline-block;
+		width: 17rem;
+		max-width: 100%;
+		margin-right: 1rem;
+		margin-left: 1rem;
+		vertical-align: top;
+	}
+
+	.cards-1-1 .card-image1 {
+		width: 9rem;
+	}
+	/* end of description */
+	/* Description */
+	.cards-1-1 .card1 {
+		width: 18.875rem;
+		margin-right: 2rem;
+		margin-left: 2rem;
+	}
+
+	.cards-1-1 .card-image1 {
+		width: 12.5rem;
+	}
+	/* end of description */
+	.h7 {
+	color: white;
+	font-size: 0.8rem;
+	}
