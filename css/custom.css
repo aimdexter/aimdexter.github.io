@@ -46,6 +46,16 @@ Colors:
 /****************************/
 /*     12. Testimonials     */
 /****************************/
+
+#dds {
+	height: 60%;
+}
+
+#imgcol {
+	align-items: center;
+    align-content: center;
+    align-self: center;
+}
 .slider-2 {
 	padding-top: 2.75rem;
 	padding-bottom: 4rem;
@@ -451,7 +461,14 @@ Colors:
 	}
 
 	.cards-1-1 .card-image1 {
-		width: 12.5rem;
+		width: 8.5rem;
+  		height: 8rem;
+  		border-radius: 50%;
+  		margin-bottom: 10px;
+  		transition: all 0.2s ease-in-out 0s;
+	}
+	.cards-1-1 .card-image1:hover{
+		transform: scale(1.1);
 	}
 	/* end of description */
 	.h7 {
