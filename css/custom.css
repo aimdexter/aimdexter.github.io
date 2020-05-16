@@ -46,6 +46,16 @@ Colors:
 /****************************/
 /*     12. Testimonials     */
 /****************************/
+
+#dds {
+	height: 60%;
+}
+
+#imgcol {
+	align-items: center;
+    align-content: center;
+    align-self: center;
+}
 .slider-2 {
 	padding-top: 2.75rem;
 	padding-bottom: 4rem;
@@ -108,7 +118,7 @@ Colors:
 /*     13. Newsletter     */
 /**************************/
 .form {
-	padding-top: 4rem;
+	padding-top: 6rem;
 	padding-bottom: 6rem;
 }
 
@@ -121,6 +131,9 @@ Colors:
 
 .form h2 {
 	margin-bottom: 2.75rem;
+	text-align: center;
+}
+.form h6 {
 	text-align: center;
 }
 
@@ -255,7 +268,10 @@ Colors:
 		margin-left: 4rem;
 	}
 	/* end of newsletter */
-
+	.form .form-group {
+		position: relative;
+		margin-bottom: 1.25rem;
+	}
 
 	/* Footer */
 	.footer-frame {
@@ -328,10 +344,15 @@ Colors:
 
 
 	/* Customer */
-	.slider-1 .slider-container {
-		margin-right: 3rem;
-		margin-left: 3rem;
+	.slider-1 {
+		padding-top: 2rem;
+		padding-bottom: 4rem;
+		background-color: #e8eff6;
+
 	}
+
+
+
 	/* end of customer */
 
 
@@ -451,10 +472,132 @@ Colors:
 	}
 
 	.cards-1-1 .card-image1 {
-		width: 12.5rem;
+		width: 8.5rem;
+  		height: 8rem;
+  		border-radius: 50%;
+  		margin-bottom: 10px;
+  		transition: all 0.2s ease-in-out 0s;
+	}
+	.cards-1-1 .card-image1:hover{
+		transform: scale(1.1);
 	}
 	/* end of description */
 	.h7 {
 	color: white;
 	font-size: 0.8rem;
 	}
+	.h8 {
+	    padding: 0 25px;
+	    text-align: center;
+	    margin-bottom: 40px;
+	}
+
+
+	/**********************/
+	/*     14. Footer     */
+	/**********************/
+	.footer-frame {
+		width: 100%;
+		height: 1.5rem;
+	}
+
+	.footer {
+		padding-top: 3rem;
+		padding-bottom: 0.5rem;
+		background-color: #5f4dee;
+	}
+
+	.footer .footer-col {
+		margin-bottom: 2.25rem;
+	}
+
+	.footer h4 {
+		margin-bottom: 0.625rem;
+		color: #fff;
+	}
+
+	.footer .list-unstyled,
+	.footer p {
+		color: #f3f7fd;
+	}
+
+	.footer .footer-col.middle .list-unstyled .fas {
+		color: #fff;
+		font-size: 0.5rem;
+		line-height: 1.5rem;
+	}
+
+	.footer .footer-col.middle .list-unstyled .media-body {
+		margin-left: 0.5rem;
+	}
+
+	.footer .footer-col.last .list-unstyled .fas {
+		color: #fff;
+		font-size: 0.875rem;
+		line-height: 1.5rem;
+	}
+
+	.footer .footer-col.last .list-unstyled .media-body {
+		margin-left: 0.625rem;
+	}
+
+	.footer .footer-col.last .list-unstyled .fas.fa-globe {
+		margin-left: 1rem;
+		margin-right: 0.625rem;
+	}
+
+
+	/*************************/
+	/*     15. Copyright     */
+	/*************************/
+	.copyright {
+		padding-top: 1rem;
+		padding-bottom: 0.375rem;
+		background-color: #5f4dee;
+		text-align: center;
+	}
+
+	.copyright .p-small {
+		padding-top: 1.375rem;
+		border-top: 1px solid #718ad1;
+		color: #f3f7fd;
+	}
+
+	.copyright a {
+		color: #f3f7fd;
+		text-decoration: none;
+	}
+
+
+	.ex-footer-frame {
+		width: 100%;
+		height: 2.75rem;
+		background-color: #f3f7fd;
+	}
+
+
+		/* Footer */
+		.footer-frame {
+			height: 5rem;
+		}
+		/* end of footer */
+
+
+		/* Footer */
+		.footer .footer-col.first {
+			margin-right: 1.5rem;
+		}
+
+		.footer .footer-col.middle {
+			margin-right: 0.75rem;
+			margin-left: 0.75rem;
+		}
+
+		.footer .footer-col.last {
+			margin-left: 1.5rem;
+		}
+		/* end of footer */
+		a.white {
+			color: #fff;
+			font-size: 0.55rem;
+		}
